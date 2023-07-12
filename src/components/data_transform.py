@@ -1,0 +1,1 @@
+# after  ingesting data from data from data base or other ways  we can use data hear for trans formation 
