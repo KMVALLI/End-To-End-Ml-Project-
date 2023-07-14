@@ -1,6 +1,7 @@
 import logging
 import os
 from datetime import datetime
+from src.logger import logging
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"  # hear log is tring  it will print 
 logs_path=os.path.join(os.getcwd(),"logs",LOG_FILE)  #  hear we will get logs folder 
@@ -18,6 +19,3 @@ logging.basicConfig(
 
 )
 
-
-if __name__ == "__main__":
-    logging.info("Masthan Logging as started")
